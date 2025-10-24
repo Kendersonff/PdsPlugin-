@@ -1,0 +1,12 @@
+name: PdsPlugin
+version: 1.0
+main: com.tuplugin.pds.PdsPlugin
+api-version: 1.20 # La versión de la API de Minecraft (1.20.x)
+authors: [Ken Meyers] # ¡Autor actualizado!
+description: Un plugin para hacer que todos los mobs ataquen a un jugador.
+commands:
+pds:
+description: Comando principal del plugin PdsPlugin.
+usage: /<command> mods agry
+permission: pds.use
+permission-message: No tienes permiso para usar este comando.
